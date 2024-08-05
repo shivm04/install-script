@@ -96,6 +96,9 @@ else
     echo "No action taken."
 fi
 
+#for installing the php-fpm
+sudo apt-get install php8.0-fpm -y
+
 # Cleanup
 sudo apt autoremove -y
 sudo apt clean
